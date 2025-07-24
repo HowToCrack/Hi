@@ -24,7 +24,7 @@ app = Flask(__name__)
 
 # Configuration
 CONFIG = {
-    "groq_api_key": "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",  # Replace with your actual Groq API key
+    "groq_api_key": "your_api",  # Replace with your actual Groq API key
     "model": "llama3-70b-8192",
     "api_url": "https://api.groq.com/openai/v1/chat/completions",
     "wake_word": "friday",  # Optional wake word
